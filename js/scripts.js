@@ -46,7 +46,7 @@ $(document).ready(function(){
     event.preventDefault();
     debugger;
     zipCode = $("#zip").val();
-    var requestURL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=8cc43ef0ee2dfb56027fa0a6ebfdc5f3";
+    var requestURL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=f160f325aa62fa3e3a2ca7e693cda176";
 
     $("button").click(function(){
       clearForms();
